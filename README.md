@@ -21,19 +21,19 @@ Este projeto consiste em um sistema de informação para gerenciamento de uma re
 ## 📊 2. Modelagem UML
 
 ### Diagrama de Casos de Uso
-*![Diagrama de Casos de Uso](../docs/diagramas/casos_de_uso.png)*
+*![Diagrama de Casos de Uso](./docs/diagramas/casos_de_uso.png)*
 - **Atores:** Administrador (Gere filmes e sessões) e Espectador (Consulta horários).
 
 ### Diagrama de Classes
-*![Diagrama de Classes](../docs/diagramas/classes_de_dominio.png)*
+*![Diagrama de Classes](./docs/diagramas/classes_de_dominio.png)*
 - **Entidades principais:** `Cinema`, `Filme`, `Sessao`, `Genero`, `Ator`.
 
 ### Diagrama de Atividades (Fluxo de Registro de Público)
-*![Diagrama de Atividades](../docs/diagramas/atividades.png)*
+*![Diagrama de Atividades](./docs/diagramas/atividades.png)*
 - Representa o processo desde a seleção da sessão até a atualização do total de espectadores no banco de dados.
 
 ### Diagrama de Sequência (MVC + Service + Repository)
-*![Diagrama de Sequência](../docs/diagramas/sequencia.png)*
+*![Diagrama de Sequência](./docs/diagramas/sequencia.png)*
 - Demonstra a chamada da `View` para o `Controller`, validação no `Service`, persistência no `Repository` e retorno ao usuário.
 
 ---
