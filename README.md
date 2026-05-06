@@ -29,7 +29,7 @@ Este projeto consiste em um sistema de informação para gerenciamento de uma re
 - **Entidades principais:** `Cinema`, `Filme`, `Sessao`, `Genero`, `Ator`.
 
 ### Diagrama de Atividades (Fluxo de Registro de Público)
-*![Diagrama de Atividades](./docs/diagramas/atividades.png)*
+*![Diagrama de Atividades](./docs/diagramas/atividade.png)*
 - Representa o processo desde a seleção da sessão até a atualização do total de espectadores no banco de dados.
 
 ### Diagrama de Sequência (MVC + Service + Repository)
